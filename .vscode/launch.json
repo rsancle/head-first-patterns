@@ -2,6 +2,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChapterOne",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "chapterOne.ChapterOne",
+            "args": "",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
