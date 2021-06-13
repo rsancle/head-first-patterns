@@ -1,5 +1,6 @@
 package chapterTwo.wheatherStation;
 
+import chapterTwo.wheatherStation.observer.Observer;
 import chapterTwo.wheatherStation.observer.Subject;
 
 public class WheatherData implements Subject {
@@ -29,19 +30,19 @@ public class WheatherData implements Subject {
     }
 
     @Override
-    public void registerObserver() {
+    public void registerObserver(Observer o) {
         // TODO Auto-generated method stub
 
     }
 
     @Override
-    public void removeObserver() {
+    public void removeObserver(Observer o) {
         // TODO Auto-generated method stub
 
     }
 
     @Override
-    public void notifyObserver() {
+    public void notifyObservers() {
         // TODO Auto-generated method stub
 
     }

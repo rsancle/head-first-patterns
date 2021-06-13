@@ -5,7 +5,7 @@ import chapterTwo.wheatherStation.observer.Observer;
 public class StatisticsDisplay implements Observer, DisplayElement {
 
     @Override
-    public void update() {
+    public void update(float temp, float humidity, float pressure) {
         // TODO Auto-generated method stub
 
     }
