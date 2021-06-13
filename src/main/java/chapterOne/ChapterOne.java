@@ -7,7 +7,8 @@ public class ChapterOne {
 
     public static void main(String[] args) {
         Duck m = new MallardDuck();
-        m.display();
+        m.performQuack();
+        m.performFly();
     }
 
 }
